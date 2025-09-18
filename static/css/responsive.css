@@ -1,164 +1,3 @@
-html {
-    font-size: 10px;
-}
-
-@media (max-width:1700px) {
-    .advantItem {
-        width: 400px;
-    }
-
-    .advantLightblue {
-        gap: ((100% -1200px) / 3);
-    }
-
-    .advantItem p {
-        font-size: 24px;
-    }
-
-    .text {
-        font-size: 38px !important;
-    }
-}
-
-@media (max-width: 1400px) {
-    .advantItem {
-        flex: 1 1 calc(100% / 3);
-    }
-
-    .advantUseRules {
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 20px;
-    }
-
-    .useRulesLeft {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
-    }
-
-    .rulesTextTitle {
-        font-size: 30px;
-    }
-
-    .rulesTextLorem {
-        font-size: 50px;
-        font-weight: 600;
-        padding: 0;
-    }
-
-    .useRulesRight {
-        width: 100%;
-        gap: 30px;
-    }
-
-    .arrow-Text {
-        width: 100%;
-        display: flex;
-        justify-content: flex-start;
-        gap: 20px;
-        padding: 0;
-    }
-
-    .arrow-Text p {
-        font-size: 20px;
-    }
-
-    .gradientText {
-        background: linear-gradient(to right, #3a3afa 0%, #74efff 45%);
-        background-clip: text;
-        -webkit-text-fill-color: transparent;
-        font-weight: bold;
-    }
-
-    .feadbackCard {
-        width: 30rem;
-    }
-
-    .feadbackText p {
-        font-size: 1.8rem;
-        font-weight: 500;
-    }
-
-    .userProfile {
-        gap: .5rem;
-    }
-
-    .userProfile img {
-        width: 8rem;
-        height: 8rem;
-    }
-
-    .userName {
-        font-size: 1.8rem;
-    }
-
-    .cta_title {
-        font-size: 48px;
-        font-weight: 600;
-    }
-
-}
-
-@media (max-width: 1100px) {
-    .advantLightblue {
-        flex-direction: column;
-        align-items: center;
-        gap: 2rem;
-    }
-
-    .advantItem {
-        width: 600px;
-    }
-
-    .feadbackCon {
-        justify-content: center;
-        gap: 2rem;
-    }
-
-    .feadbackCard {
-        width: 100%;
-
-    }
-
-    .cta_title {
-        font-size: 42px;
-    }
-
-    .footerBox {
-        flex-wrap: wrap;
-        gap: 2rem;
-    }
-
-    .footerCon:last-child {
-        padding: 0;
-    }
-}
-
-@media (max-width: 930px) {
-
-    .cta_inner {
-        padding: 0 20px;
-    }
-
-    .cta_title {
-        font-size: 32px;
-    }
-
-    .cta {
-        padding: 30px;
-    }
-
-    .cta_subtitle {
-        font-size: 16px;
-    }
-
-    .cta_button {
-        font-size: 16px;
-    }
-}
-
 @media (max-width: 850px) {
     .card-box {
         justify-content: center;
@@ -180,11 +19,8 @@ html {
     }
 }
 
-@media (max-width: 720px) {
-    .advantItem {
-        width: 400px;
-    }
 
+@media (max-width: 650px) {
     .nav-icon-mobile {
         display: flex;
         justify-content: flex-end;
@@ -196,6 +32,8 @@ html {
         font-size: 4rem;
         color: var(--text-color);
     }
+
+
 
     .nav {
         display: none;
@@ -219,6 +57,7 @@ html {
         justify-content: center;
         width: 100%;
     }
+
 
     .cc-header {
         font-size: 3.2rem;
@@ -292,45 +131,188 @@ html {
         width: 100%;
         height: 250px;
     }
+    
 
-    /*  */
 
+}
 
-    .footerBox {
-        flex-direction: column;
+@media (max-width:1700px) {
+    .advantItem {
+        width: 400px;
     }
 
-    .footerCon {
-        width: 100%;
+    .advantLightblue {
+        gap: ((100% -1200px) / 3);
     }
 
-    .footerCon p {
-        width: 100%;
+    .advantItem p {
+        font-size: 24px;
+    }
+
+    .text {
+        font-size: 38px !important;
+    }
+}
+
+@media (max-width: 1400px) {
+    .advantItem {
+        flex: 1 1 calc(100% / 3);
+    }
+
+    .advantUseRules {
+        flex-wrap: wrap;
         justify-content: center;
-        text-align: center;
+        gap: 20px;
     }
 
-    .copyname {
-        position: static;
+    .useRulesLeft {
         width: 100%;
         display: flex;
-        justify-content: center;
-        padding: 0 0 2rem;
+        flex-direction: column;
+        gap: 30px;
     }
 
-    .input {
-        justify-content: space-between;
+    .rulesTextTitle {
+        font-size: 30px;
     }
 
-    .input input {
+    .rulesTextLorem {
+        font-size: 50px;
+        font-weight: 600;
+        padding: 0;
+    }
+
+    .useRulesRight {
         width: 100%;
+        gap: 30px;
     }
 
-    .input button {
-        width: 12rem !important;
+    .arrow-Text {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        gap: 20px;
+        padding: 0;
+    }
+
+    .arrow-Text p {
+        font-size: 20px;
+    }
+
+
+
+    .gradientText {
+        background: linear-gradient(to right, #3a3afa 0%, #74efff 45%);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: bold;
     }
 
 }
+
+@media (max-width: 1100px) {
+    .advantLightblue {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .advantItem {
+        width: 600px;
+    }
+}
+
+@media (max-width: 720px) {
+    .advantItem {
+        width: 400px;
+    }
+
+}
+
+
+
+@media (max-width: 1350px) {
+    .feadbackCard {
+        width: 30rem;
+    }
+
+    .feadbackText p {
+        font-size: 1.8rem;
+        font-weight: 500;
+    }
+
+    .userProfile {
+        gap: .5rem;
+    }
+
+    .userProfile img {
+        width: 8rem;
+        height: 8rem;
+    }
+
+    .userName {
+        font-size: 1.8rem;
+    }
+
+    .cta_title {
+        font-size: 48px;
+        font-weight: 600;
+    }
+}
+
+@media (max-width: 1050px) {
+    .feadbackCon {
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .feadbackCard {
+        width: 100%;
+
+    }
+
+    .cta_title {
+        font-size: 42px;
+    }
+
+    .footerBox {
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+
+    .footerCon:last-child {
+        padding: 0;
+    }
+
+}
+
+@media (max-width: 930px) {
+
+
+    .cta_inner {
+        padding: 0 20px;
+    }
+
+    .cta_title {
+        font-size: 32px;
+    }
+
+    .cta {
+        padding: 30px;
+    }
+
+    .cta_subtitle {
+        font-size: 16px;
+    }
+
+    .cta_button {
+        font-size: 16px;
+    }
+
+
+
+}
+
 
 @media (max-width: 520px) {
 
@@ -359,10 +341,17 @@ html {
         width: 300px;
     }
 
+
+
     .advantHeader {
         font-size: 32px;
         padding: 10px 0;
     }
+
+
+
+
+
 
     .rulesTextLorem {
         font-size: 32px;
@@ -373,12 +362,5 @@ html {
         font-size: 32px;
     }
 
-    .userFeadback {
-        padding: 3rem;
-    }
-
-    .cta_inner {
-        padding: 0 1rem;
-    }
 
 }
