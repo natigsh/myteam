@@ -1,0 +1,384 @@
+html {
+    font-size: 10px;
+}
+
+@media (max-width:1700px) {
+    .advantItem {
+        width: 400px;
+    }
+
+    .advantLightblue {
+        gap: ((100% -1200px) / 3);
+    }
+
+    .advantItem p {
+        font-size: 24px;
+    }
+
+    .text {
+        font-size: 38px !important;
+    }
+}
+
+@media (max-width: 1400px) {
+    .advantItem {
+        flex: 1 1 calc(100% / 3);
+    }
+
+    .advantUseRules {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .useRulesLeft {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .rulesTextTitle {
+        font-size: 30px;
+    }
+
+    .rulesTextLorem {
+        font-size: 50px;
+        font-weight: 600;
+        padding: 0;
+    }
+
+    .useRulesRight {
+        width: 100%;
+        gap: 30px;
+    }
+
+    .arrow-Text {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        gap: 20px;
+        padding: 0;
+    }
+
+    .arrow-Text p {
+        font-size: 20px;
+    }
+
+    .gradientText {
+        background: linear-gradient(to right, #3a3afa 0%, #74efff 45%);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: bold;
+    }
+
+    .feadbackCard {
+        width: 30rem;
+    }
+
+    .feadbackText p {
+        font-size: 1.8rem;
+        font-weight: 500;
+    }
+
+    .userProfile {
+        gap: .5rem;
+    }
+
+    .userProfile img {
+        width: 8rem;
+        height: 8rem;
+    }
+
+    .userName {
+        font-size: 1.8rem;
+    }
+
+    .cta_title {
+        font-size: 48px;
+        font-weight: 600;
+    }
+
+}
+
+@media (max-width: 1100px) {
+    .advantLightblue {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .advantItem {
+        width: 600px;
+    }
+
+    .feadbackCon {
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .feadbackCard {
+        width: 100%;
+
+    }
+
+    .cta_title {
+        font-size: 42px;
+    }
+
+    .footerBox {
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+
+    .footerCon:last-child {
+        padding: 0;
+    }
+}
+
+@media (max-width: 930px) {
+
+    .cta_inner {
+        padding: 0 20px;
+    }
+
+    .cta_title {
+        font-size: 32px;
+    }
+
+    .cta {
+        padding: 30px;
+    }
+
+    .cta_subtitle {
+        font-size: 16px;
+    }
+
+    .cta_button {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 850px) {
+    .card-box {
+        justify-content: center;
+        gap: 1.5rem;
+    }
+
+    .card {
+        flex: 1 1 250px;
+        max-width: 250px;
+    }
+
+    .card-img img {
+        width: 250px;
+        height: 170px;
+    }
+
+    .card-con-header {
+        max-width: 60rem;
+    }
+}
+
+@media (max-width: 720px) {
+    .advantItem {
+        width: 400px;
+    }
+
+    .nav-icon-mobile {
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+        padding: 3rem;
+    }
+
+    .nav-icon-mobile ion-icon {
+        font-size: 4rem;
+        color: var(--text-color);
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .nav-child {
+        display: none;
+    }
+
+    .card-con-header {
+        max-width: 90%;
+        padding: 0;
+        gap: 2rem;
+    }
+
+    .card-con {
+        padding: 2rem;
+    }
+
+    .card-box {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .cc-header {
+        font-size: 3.2rem;
+    }
+
+    .cc-text {
+        font-size: 1.8rem;
+    }
+
+    .search {
+        width: 100%;
+        padding: 1rem;
+        flex-direction: column;
+    }
+
+    .search input {
+        width: 100%;
+        border: none;
+    }
+
+    .search input::placeholder {
+        font-size: 1.4rem;
+    }
+
+    .city {
+        width: 100%;
+        font-size: 1.6rem;
+        flex-direction: column;
+    }
+
+    .cityParametr {
+        display: flex;
+    }
+
+
+
+    .privateCity {
+        position: static;
+        width: 100%;
+        background-color: var(--gradient-color-4);
+        height: 15rem;
+    }
+
+
+
+    .search button {
+        width: 100%;
+        padding: 0;
+        height: 3rem;
+    }
+
+    .search button p {
+        font-size: 1.6rem;
+    }
+
+    .more-box button {
+        width: 100%;
+        height: 3rem;
+        font-size: 1.6rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+
+    .card-img img {
+        width: 100%;
+        height: 250px;
+    }
+
+    /*  */
+
+
+    .footerBox {
+        flex-direction: column;
+    }
+
+    .footerCon {
+        width: 100%;
+    }
+
+    .footerCon p {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .copyname {
+        position: static;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 0 0 2rem;
+    }
+
+    .input {
+        justify-content: space-between;
+    }
+
+    .input input {
+        width: 100%;
+    }
+
+    .input button {
+        width: 12rem !important;
+    }
+
+}
+
+@media (max-width: 520px) {
+
+    .advant {
+        padding: 2rem;
+    }
+
+    .text {
+        font-size: 24px !important;
+    }
+
+    .advantItemImg {
+        width: 30px;
+        height: 30px;
+    }
+
+    .advantItem p:last-child {
+        font-size: 16px;
+    }
+
+    .advantLightblue {
+        padding: 15px 0;
+    }
+
+    .advantItem {
+        width: 300px;
+    }
+
+    .advantHeader {
+        font-size: 32px;
+        padding: 10px 0;
+    }
+
+    .rulesTextLorem {
+        font-size: 32px;
+        font-weight: 600;
+    }
+
+    .feadbackHeader {
+        font-size: 32px;
+    }
+
+    .userFeadback {
+        padding: 3rem;
+    }
+
+    .cta_inner {
+        padding: 0 1rem;
+    }
+
+}
