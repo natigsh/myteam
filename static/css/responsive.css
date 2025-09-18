@@ -131,7 +131,7 @@
         width: 100%;
         height: 250px;
     }
-    
+
 
 
 }
@@ -225,6 +225,18 @@
 @media (max-width: 720px) {
     .advantItem {
         width: 400px;
+    }
+
+    .sosialInFooter{
+        padding-bottom: 1rem;
+    }
+
+    .copyname {
+        position: static;
+        margin-bottom: 2.8rem;
+        width: 100%;
+        display: flex;
+        justify-content: center;
     }
 
 }
