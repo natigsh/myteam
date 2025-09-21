@@ -16,7 +16,7 @@
     --card-bg-color: #E0E4FC;
     --l-gradinet-color-1: #373FFF;
     --l-gradinet-color-2: #3ACAF8;
-    --placeholder-color: #555;
+    --placeholder-color: #a5a6ac;
     --border-color: #d1d5db;
     --nav-bg-color: #f4f8fc;
     --input-bg-color: #2b2e3c46;
@@ -39,7 +39,7 @@ a {
     justify-content: flex-end;
     align-items: center;
     gap: 2rem;
-    background-color: var(--nav-bg-color);
+    background-color: transparent;
 }
 
 .nav-icon-mobile {
@@ -84,6 +84,9 @@ a {
     width: 100%;
     align-items: flex-end;
     gap: 1rem;
+    position: absolute;
+    background-color: var(--nav-bg-color) ;
+    z-index: 999999;
 }
 
 .nav-child-mobile {
@@ -268,12 +271,14 @@ a {
     flex: 1 1 360px;
     max-width: 360px;
     margin-top: 5rem;
+    background-color: #f0f3fc;
+    border-radius: 2rem;
 }
 
 
 
 .card-text {
-    padding: 1rem;
+    padding: 2rem;
 }
 
 .bmw {
@@ -442,13 +447,15 @@ a {
     padding: 10px 0px 20px 150px;
 }
 
-.gradientText {
-    background: linear-gradient(to right, #3a3afa 0%, #74efff 45%);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-weight: bold;
-    font-size: 2.8rem;
-}
+ .gradientText {
+      background: linear-gradient(90deg, #2b32b2, #1488cc);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+     display: inline-block;
+      font-weight: bold;
+      font-size: 2.8rem;
+      font-family: Arial, sans-serif;
+    }
 
 .arrow-Text p {
     font-size: 1.8rem;
@@ -618,14 +625,12 @@ a {
 }
 
 .gradient_background {
-    background: radial-gradient(483.9% 2719.65% at -49.5% -250%,
-            #d798e1 17.55%,
-            #9bffa5 27.56%,
-            #aed3ff 49.89%,
-            #c9d4ef 56.53%,
-            #cacffa 65.69%);
-
-
+    background: radial-gradient(circle at bottom,
+            var(--gradient-color-1),
+            var(--gradient-color-2),
+            var(--gradient-color-3),
+            var(--gradient-color-4),
+            var(--gradient-color-5));
     position: absolute;
     top: 100%;
     transform: translateY(-100px);
@@ -658,8 +663,3 @@ a {
     border-radius: 8px;
     font-size: 18px;
 }
-
-
-
-
-

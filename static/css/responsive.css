@@ -376,3 +376,9 @@
 
 
 }
+
+@media (min-width : 1050px){
+    .feadbackCard{
+        width: calc((100% / 3.1) );
+    }
+}
