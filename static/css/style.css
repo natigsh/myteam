@@ -86,9 +86,9 @@ a {
     position: absolute;
     background-color: var(--nav-bg-color) ;
     z-index: 999999;
-    right: 0;
+    right: 3rem;
     border-radius: 1rem; 
-    padding: .6rem;
+    padding: 1rem .6rem;
 }
 
 .nav-child-mobile {
