@@ -81,12 +81,12 @@ a {
     display: none;
     flex-direction: column;
     padding: 0 3rem;
-    width: 100%;
     align-items: flex-end;
     gap: 1rem;
     position: absolute;
     background-color: var(--nav-bg-color) ;
     z-index: 999999;
+    right: 0;
 }
 
 .nav-child-mobile {
